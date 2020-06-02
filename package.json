@@ -1,0 +1,27 @@
+{
+  "name": "ecoleta",
+  "version": "1.0.0",
+  "description": "Marketplace de coleta de resíduos, com o objetivo de ajudar pessoas a encontrarem pontos de coleta de forma simples e fácil. Esse projeto foi desenvolvido durante a Next Level Week, evento online da Rocketseat.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diego-aquino/ecoleta.git"
+  },
+  "keywords": [
+    "ecoleta",
+    "nlw",
+    "web",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Diego Cruz de Aquino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diego-aquino/ecoleta/issues"
+  },
+  "homepage": "https://github.com/diego-aquino/ecoleta#readme"
+}
