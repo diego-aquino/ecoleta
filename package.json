@@ -2,9 +2,9 @@
   "name": "ecoleta",
   "version": "1.0.0",
   "description": "Marketplace de coleta de resíduos, com o objetivo de ajudar pessoas a encontrarem pontos de coleta de forma simples e fácil. Esse projeto foi desenvolvido durante a Next Level Week, evento online da Rocketseat.",
-  "main": "index.html",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/diego-aquino/ecoleta/issues"
   },
-  "homepage": "https://github.com/diego-aquino/ecoleta#readme"
+  "homepage": "https://github.com/diego-aquino/ecoleta#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
