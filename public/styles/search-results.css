@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+}
+
 #page-search-results {
     width: 90%;
     max-width: 1100px;
@@ -76,9 +80,22 @@ main .cards h3 {
     color: var(--primary-color);
 }
 
+main .card {
+    border-radius: 8px;
+    background-color: #f0f0f5;
+}
+
+main .card h1,
+main .card h3,
+main .card p {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
 main .card p {
     font-size: 16px;
     line-height: 26px;
+    margin-bottom: 16px;
 
     color: #6c6c80;
 }
@@ -86,13 +103,15 @@ main .card p {
 /* (criando pseudoelemento pelo css) */
 body::after {
     content: "";
-    position: fixed;
-    background-color: white;
+    position: absolute;
+    background-color: #f0f0f5;
 
-    top: 260px;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
+
+    height: 16rem;
 
     z-index: -1;
 }
