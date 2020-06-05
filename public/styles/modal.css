@@ -97,3 +97,17 @@
 #modal form button:hover {
     background-color: #2fb86e;
 }
+
+#modal.point-saved .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal.point-saved img {
+    margin-bottom: 32px;
+}
+
+#modal.point-saved h1 {
+    color: white;
+}
