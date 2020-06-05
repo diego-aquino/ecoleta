@@ -8,12 +8,13 @@
 
 {% block styles %}
     <link rel="stylesheet" href="/styles/create-point.css">
+    <link rel="stylesheet" href="/styles/modal.css">
 {% endblock styles %}
 
 {% block content %}
     {% include "partials/page-header.html" %}
 
-    <form action="">
+    <form action="/save-point" method="POST">
         <h1>Cadastro do ponto de coleta</h1>
 
         <fieldset>
@@ -112,6 +113,12 @@
 
         <button type="submit">Cadastrar ponto de coleta</button>
     </form>
+{% endblock %}
+
+{% block modal %}
+    {% if saved %}
+        {% include "partials/point-saved.html" %}
+    {% endif %}
 {% endblock %}
 
 {% block scripts %}
