@@ -62,6 +62,11 @@ for (const item of itemsToCollect) {
 }
 
 const collectedItems = document.querySelector("input[name=items]");
+const items = [
+    "Lâmpadas", "Pilhas e Baterias", "Papéis e Papelão",
+    "Resíduos Eletrônicos", "Resíduos Orgânicos", "Óleo de Cozinha"
+];
+
 let selectedItems = [];
 
 function handleSelectedItem(event) {
@@ -84,5 +89,6 @@ function handleSelectedItem(event) {
         selectedItems.push(itemId);
     }
 
-    collectedItems.value = selectedItems;
+    let selectedItemsByName = selectedItems.map( currItemId => items[currItemId - 1] );
+    collectedItems.value = selectedItemsByName;
 }
