@@ -27,7 +27,7 @@ body {
 
 #page-search-results header a span {
     margin-right: 12px;
-    background-image: url('../assets/icons/arrow-left.svg');
+    background-image: url('../icons/arrow-left.svg');
 
     display: flex;
 

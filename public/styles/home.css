@@ -1,7 +1,7 @@
 #page-home {
     height: 100vh; /* 100 da Viewport Height */
 
-    background: url('../assets/icons/home-background.svg') no-repeat;
+    background: url('../icons/home-background.svg') no-repeat;
     background-position: 40vw bottom; /* 35 da Viewport Width */
 }
 
@@ -35,7 +35,7 @@
 
 #page-home header a span {
     margin-right: 16px;
-    background-image: url('../assets/icons/log-in.svg');
+    background-image: url('../icons/log-in.svg');
 
     width: 20px;
     height: 20px;
@@ -94,7 +94,7 @@
 
 #page-home main a span::after {
     content: "";
-    background-image: url('../assets/icons/search.svg');
+    background-image: url('../icons/search.svg');
 
     width: 20px;
     height: 20px;
